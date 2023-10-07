@@ -11,7 +11,7 @@ export default function Home() {
         <p className="absolute top-1/2 left-1/2 -translate-y-1/2 z-10 -translate-x-1/2 w-full dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:text-white text-2xl lg:text-6xl text-center font-semibold">Rathina Boopathi Sundarraj</p>
         <Image 
         className='w-full h-full object-cover brightness-75'
-        src={'https://portfolio-srb.s3.ap-south-1.amazonaws.com/me.jpg'} 
+        src={`https://portfolio-srb.s3.ap-south-1.amazonaws.com/me.jpg?timeStamp=${Date.now()}`} 
         alt={'image'}
         // layout='responsive'
         loading='lazy' 
